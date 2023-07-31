@@ -6,8 +6,7 @@
 // ""             =>  ""
 
 
-
-
+//Solution 1
 
 function solution(string) {
     // take the string input and use array split method to separate each element
@@ -23,6 +22,10 @@ function solution(string) {
   console.log(solution('camelCastingText'))
   
   
+
+//Solution 2
+
+
   function solution(string){
     let newString = '';
     for(letter of string){
