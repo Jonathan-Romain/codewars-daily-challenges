@@ -18,7 +18,7 @@
 
 function reverseLetter(str) {
     //variable to initialize all letters of the alphabet
-    let alphabet = 'abcdefghjiklmnopqrstuvwxyz';
+    let alphabet = 'abcdefghijklmnopqrstuvwxyz';
     
     // variable to store all elements a part of the alphabet
     let answer = [];
