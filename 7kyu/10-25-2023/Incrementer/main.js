@@ -40,6 +40,12 @@ function incrementer(nums) {
   return res
 }
 
+
+
+
+
+
+
 const incrementer = (nums) =>
   nums
     ? nums.map((e, i) =>
