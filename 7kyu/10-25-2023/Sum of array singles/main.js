@@ -40,3 +40,25 @@ function repeats(arr){
     }
     return sum
   }
+
+
+
+  const repeats = arr => {
+    let obj = {}
+    let sum = 0
+    
+    for(let i = 0; i < arr.length; i++){
+      let e = arr[i];
+      if(obj[e] === undefined){
+        obj[e] = 1;
+      } else {
+        obj[e]++
+      }
+    }
+    for(let i = 0; i < arr.length; i++){
+      if(obj[arr[i]] === 1){
+        sum+= arr[i]
+      }
+    }
+    return sum
+  }
